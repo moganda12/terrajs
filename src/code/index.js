@@ -10,7 +10,7 @@ function drawImage(ctx, path, width, height, x, y) {
 
 const canvasElement = document.createElement('canvas');
 
-canvasElement.height = window.innerHeight;
+canvasElement.width = window.innerWidth;
 
 document.body.appendChild(canvasElement);
 
