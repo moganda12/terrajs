@@ -1,0 +1,9 @@
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+canvas {
+    aspect-ratio: 16 / 9;
+}
