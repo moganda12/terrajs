@@ -21,5 +21,6 @@ canvas.imageSmoothingEnabled = false;
 drawImage(canvas, "Splash_0.png", canvasElement.width, canvasElement.height, 0, 0);
 
 window.addEventListener("resize", () => {
+    canvasElement.width = window.innerWidth;
     drawImage(canvas, "Splash_0.png", canvasElement.width, canvasElement.height, 0, 0);
 });
